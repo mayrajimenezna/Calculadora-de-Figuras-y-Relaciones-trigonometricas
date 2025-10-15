@@ -17,7 +17,7 @@ st.write (f"El área del círculo con radio {radio} es: {area: .2f}")
 perimetro = math.pi *2 * radio
 st.write (f"El perímetro del círculo es: {perimetro}")
 
-st.image("triangulo.jpg")
+st.image("triangulo_sinfondo.png")
 # Widget para ingresar la base del triangulo
 a = st.slider ("Selecciona el lado 1", 0.0, 10.0, 5.0)
 b = st.slider ("Selecciona el lado 2", 0.0, 10.0, 5.0)
