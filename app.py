@@ -18,3 +18,5 @@ st.write (f"El perímetro del círculo es: {perimetro}")
 
 
 # Widget para ingresar la base
+base = st.slider ("Selecciona la base", 0.0, 10.0, 5.0)
+altura = st.slider ("Selecciona la altura",  0.0, 10.0, 5.0 )
