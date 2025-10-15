@@ -2,7 +2,7 @@ import streamlit as st
 import math
 st.balloons()
 st.snow()
-st.title("Mi aplicación: 🖩 Calculadora del Área de un Círculo ⭕")
+st.title("Calculadora de Figuras y R")
 # Widget para ingresar el radio
 radio = st.slider ("Selecciona el radio", 0.0, 10.0, 5.0)
 # Calculo del área
