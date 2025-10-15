@@ -20,3 +20,7 @@ st.write (f"El perímetro del círculo es: {perimetro}")
 # Widget para ingresar la base
 base = st.slider ("Selecciona la base", 0.0, 10.0, 5.0)
 altura = st.slider ("Selecciona la altura",  0.0, 10.0, 5.0 )
+# Calculo del área
+area1 = 1/2* base * altura
+# Mostrar resultado
+st. write (f"El área del tríángulo es: {area1}")
