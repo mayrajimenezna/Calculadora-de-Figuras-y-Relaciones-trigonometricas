@@ -22,7 +22,8 @@ a = st.slider ("Selecciona el lado 1", 0.0, 10.0, 5.0)
 b = st.slider ("Selecciona el lado 2", 0.0, 10.0, 5.0)
 c = st.slider ("Selecciona el lado 3", 0.0, 10.0, 5.0)
 # Calculo del área
-area1 = raiz_cuadrada(semi * (semi - a) * (semi - b) * (semi - c))
+import math
+area1 = math.sqrt(semi* (semi - a) * (semi - b) * (semi - c))
 # Mostrar resultado
 st. write (f"El área del tríángulo es: {area1}")
 # Calculo del perimetro
