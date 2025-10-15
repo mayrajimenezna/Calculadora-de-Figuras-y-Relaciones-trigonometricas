@@ -3,7 +3,7 @@ import math
 st.balloons()
 st.snow()
 st.title("Calculadora de Figuras y Relaciones Trigonometricas")
-st.image("https://www.google.com/search?sca_esv=df783cd413716f53&rlz=1C1SLLM_enMX1173MX1173&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKG1cRgcE0P7z3SNizmlu0QnAo31FcWSm9PsQnW8mPH21fKIudaD3R16fQoIwc62HTyRj27qBoUIERDy8P489-vZVHT3YgfUdKrHQzpOtOnKZzzeaiXgW-F8WVpZ8bbTvWPgZLzdm-07U-UwGgRxm2ySqyjNatAOlKqcjic1pVX_CyDc9Pw&q=triangulo&sa=X&ved=2ahUKEwirva-BvKaQAxXcLEQIHQy6JosQtKgLegQIJxAB&biw=1920&bih=953&dpr=1#vhid=EWqZBKuQj-atGM&vssid=mosaic")
+st.image("https://www.google.com/search?sca_esv=df783cd413716f53&rlz=1C1SLLM_enMX1173MX1173&q=figura+triangulo&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzrviPc2SkCy_EbmLwj3UWfI9lr2Dlj2AFsns6Hlc7uwoepRUWi7ulyv-wiUMKW8UUfsmffB8cyfZcjxte-YbXmu5VA66Q2VO56MbGkzlk__5qMhzDabe2o9lsHyCDtiHvK8TAEg&udm=2&sa=X&ved=2ahUKEwisz86CvKaQAxVuNEQIHcAmGIUQxKsJKAF6BAgUEAE&ictx=0&biw=1920&bih=953&dpr=1#vhid=Avr4a2nQbbf_9M&vssid=mosaic")
 
 
 # Widget para ingresar el radio
