@@ -3,8 +3,7 @@ import math
 st.balloons()
 st.snow()
 st.title("Calculadora de Figuras y Relaciones Trigonometricas")
-st.header("Mayra Mariel Jimenez Navarrete
-385869")
+st.sidebar.header("Mayra Mariel Jimenez Navarrete 385869")
 st.image("https://www.google.com/search?q=figura+circulo&sca_esv=df783cd413716f53&rlz=1C1SLLM_enMX1173MX1173&udm=2&biw=1920&bih=953&ei=OrjvaJxiu9WQ8g--9KPJBA&ved=0ahUKEwic58ymvaaQAxW7KkQIHT76KEkQ4dUDCBE&uact=5&oq=figura+circulo&gs_lp=Egtnd3Mtd2l6LWltZyIOZmlndXJhIGNpcmN1bG8yBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB5IiRlQ6QlYsRZwAngAkAEAmAGgAaAB6QiqAQMwLji4AQPIAQD4AQGYAgmgArcIwgIKEAAYgAQYQxiKBcICBhAAGAcYHpgDAIgGAZIHAzIuN6AHvyqyBwMwLje4B6gIwgcFMi01LjTIB0w&sclient=gws-wiz-img#vhid=EZWe-cszj17KAM&vssid=mosaic")
 
 
