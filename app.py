@@ -17,10 +17,14 @@ perimetro = math.pi *2 * radio
 st.write (f"El perímetro del círculo es: {perimetro}")
 
 
-# Widget para ingresar la base
-base = st.slider ("Selecciona la base", 0.0, 10.0, 5.0)
-altura = st.slider ("Selecciona la altura",  0.0, 10.0, 5.0 )
+# Widget para ingresar la base del triangulo
+a = st.slider ("Selecciona el lado 1", 0.0, 10.0, 5.0)
+b = st.slider ("Selecciona el lado 2", 0.0, 10.0, 5.0)
+c = st.slider ("Selecciona el lado 3", 0.0, 10.0, 5.0)
 # Calculo del área
-area1 = 1/2* base * altura
+area1 = raiz_cuadrada(semi * (semi - a) * (semi - b) * (semi - c))
 # Mostrar resultado
 st. write (f"El área del tríángulo es: {area1}")
+# Calculo del perimetro
+perimetro1 = a + b + c
+st.write (f"El perímetro del triángulo es: {perimetro1}")
