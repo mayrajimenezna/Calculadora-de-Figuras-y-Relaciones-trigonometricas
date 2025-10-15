@@ -17,14 +17,15 @@ st.write (f"El área del círculo con radio {radio} es: {area: .2f}")
 perimetro = math.pi *2 * radio
 st.write (f"El perímetro del círculo es: {perimetro}")
 
-
+st.image("https://www.google.com/search?q=figura+triangular&sca_esv=df783cd413716f53&rlz=1C1SLLM_enMX1173MX1173&udm=2&biw=1920&bih=953&ei=AbnvaKyqOMHNkPIP0b_kkAY&oq=figura+trian&gs_lp=Egtnd3Mtd2l6LWltZyIMZmlndXJhIHRyaWFuKgIIADIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIoC9QpwdY7w9wAXgAkAEAmAHaAqABpAmqAQcwLjQuMS4xuAEDyAEA-AEBmAIGoAKmB8ICChAAGIAEGEMYigXCAgYQABgHGB6YAwCIBgGSBwUxLjQuMaAHxiCyBwUwLjQuMbgHnwfCBwUyLTEuNcgHSw&sclient=gws-wiz-img#vhid=b1QSfkZSGpcg7M&vssid=mosaic")
 # Widget para ingresar la base del triangulo
 a = st.slider ("Selecciona el lado 1", 0.0, 10.0, 5.0)
 b = st.slider ("Selecciona el lado 2", 0.0, 10.0, 5.0)
 c = st.slider ("Selecciona el lado 3", 0.0, 10.0, 5.0)
 # Calculo del área
 import math
-area1 = math.sqrt(semi* (semi - a) * (semi - b) * (semi - c))
+s = (a + b + c) / 2
+area1 = math.sqrt(s * (s - a) * (s - b) * (s - c))
 # Mostrar resultado
 st. write (f"El área del tríángulo es: {area1: .2f}")
 # Calculo del perimetro
