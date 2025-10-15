@@ -3,8 +3,7 @@ import math
 st.balloons()
 st.snow()
 st.title("Calculadora de Figuras y Relaciones Trigonometricas")
-
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+st.image("<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -135,7 +134,8 @@ st.title("Calculadora de Figuras y Relaciones Trigonometricas")
        id="path1876"
        sodipodi:nodetypes="cccc" />
   </g>
-</svg>
+</svg>")
+
 
 # Widget para ingresar el radio
 radio = st.slider ("Selecciona el radio", 0.0, 10.0, 5.0)
