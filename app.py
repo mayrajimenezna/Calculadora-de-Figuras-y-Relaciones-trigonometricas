@@ -25,7 +25,7 @@ c = st.slider ("Selecciona el lado 3", 0.0, 10.0, 5.0)
 import math
 area1 = math.sqrt(semi* (semi - a) * (semi - b) * (semi - c))
 # Mostrar resultado
-st. write (f"El área del tríángulo es: {area1}")
+st. write (f"El área del tríángulo es: {area1: .2f}")
 # Calculo del perimetro
 perimetro1 = a + b + c
 st.write (f"El perímetro del triángulo es: {perimetro1}")
